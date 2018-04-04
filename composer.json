@@ -1,7 +1,8 @@
 {
     "name": "kwojtas6/zend_matrixcode",
-    "type": "project",
-    "license": "BSD",
+    "description": "Zend Framework 1 Matrixcode library",
+    "type": "library",
+    "license": "BSD-3-Clause",
     "minimum-stability": "stable",
     "config": {
         "platform": {
@@ -9,8 +10,11 @@
         }
     },
     "autoload": {
-        "classmap": ["src/"]
+        "psr-0": {
+            "Zend_Matrixcode": "src/"
+        }
     },
+    "include-path": ["src/"],
     "require": {
         "zendframework/zendframework1": "^1.12"
     }
