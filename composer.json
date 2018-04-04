@@ -11,8 +11,9 @@
     },
     "autoload": {
         "psr-0": {
-            "Zend_Matrixcode": "src/"
-        }
+            "": "src/"
+        },
+        "classmap": ["src/"]
     },
     "include-path": ["src/"],
     "require": {
